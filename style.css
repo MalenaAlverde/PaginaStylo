@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt,wght@-4,100..1000;0,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size:xx-large;
+    color: #373c66;
+}
+
+body {
+    background-color: #e9eaf4;
+    font-family: "Afacad Flux", sans-serif;
+    font-size:large;
+    color:#4c5f6c;
+    color: #4d538b;
+}
+
+nav {
+    color: #3f4474;
+    background-color: #dbddf0;
+}
+
+footer {
+    background-color: #dbddf0;
+}
+
+h2 {
+    color: #3f4474;
+}
+
+h3{
+    color: #3f4474;
+}
+
+.cajas {
+    display: block;
+}
