@@ -6,35 +6,98 @@
 }
 
 header {
+    width: 100%;
     font-size:xx-large;
     color: #373c66;
+}
+
+div {
+    text-align: center;
+    color: #4d538b;
 }
 
 body {
     background-color: #e9eaf4;
     font-family: "Afacad Flux", sans-serif;
     font-size:large;
-    color:#4c5f6c;
     color: #4d538b;
 }
 
 nav {
     color: #3f4474;
     background-color: #dbddf0;
+    position: sticky;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type:none;
+}
+
+nav li {
+    display: inline;
 }
 
 footer {
     background-color: #dbddf0;
+    margin-top: 5%;
 }
 
-h2 {
-    color: #3f4474;
+h1 {
+    text-align: center;
 }
 
-h3{
+h2 , h3 {
     color: #3f4474;
 }
 
 .cajas {
     display: block;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#nosotros {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+section {
+    text-align: center;
+}
+
+main {
+    margin-left: 2%;
+}
+
+input {
+    border-style: solid;
+    border-color: #4d538b;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #e9eaf4;
+    width: 20%;
+}
+
+textarea {
+    border-style: solid;
+    border-color: #4d538b;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #e9eaf4;
+}
+
+::placeholder {
+    color: #4d538b;
+}
+
+#boton {
+    width: 5%;
+    background-color: #4d538b;
+    color: #e9eaf4;
 }
