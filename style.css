@@ -7,56 +7,77 @@
 
 header {
     width: 100%;
-    font-size:xx-large;
-    color: #373c66;
+    background-color: #28595f;
 }
 
 div {
     text-align: center;
-    color: #4d538b;
+    color: #eeeae4;
 }
 
 body {
-    background-color: #e9eaf4;
+    background-color: #fdf6ec;
     font-family: "Afacad Flux", sans-serif;
     font-size:large;
-    color: #4d538b;
+    color: #28595f;
 }
 
 nav {
-    color: #3f4474;
-    background-color: #dbddf0;
+    color: #fdf6ec;
+    background-color: #28595f;
     position: sticky;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul {
-    list-style-type:none;
+    display: flex;
+    justify-content:center;
 }
 
 nav li {
-    display: inline;
+    margin: 7px;
+    list-style: none;
 }
 
-footer {
-    background-color: #dbddf0;
-    margin-top: 5%;
+nav a {
+    text-decoration: none;
 }
 
 h1 {
-    text-align: center;
+    color: #fdf6ec;
 }
 
-h2 , h3 {
-    color: #3f4474;
+h2, h3 {
+    color: #28595f;
+}
+
+footer {
+    
+    background-color: #28595f;
+    margin-top: 5%;
+    color: #eeeae4;
+    text-align: center;
+    padding: 2%;
+}
+
+footer p {
+    color: #fdf6ec;
+}
+
+footer li {
+    display: inline;
 }
 
 .cajas {
     display: block;
     text-align: left;
     margin-left: 2%;
-    margin-top: 2%;
+    margin-top: 1%;
+    background-color: #fdf6ec;
+    color: #28595f;
 }
 
 #nosotros {
@@ -64,7 +85,7 @@ h2 , h3 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 section {
@@ -77,27 +98,48 @@ main {
 
 input {
     border-style: solid;
-    border-color: #4d538b;
+    border-color: #28595f;
     border-radius: 5px;
     border-width: 1px;
-    background-color: #e9eaf4;
+    background-color: #fdf6ec;
+    background-color: #eeeae4;
     width: 20%;
+    padding: 5px;
 }
 
 textarea {
     border-style: solid;
-    border-color: #4d538b;
+    border-color: #28595f;
     border-radius: 5px;
     border-width: 1px;
-    background-color: #e9eaf4;
+    background-color: #fdf6ec;
+    background-color: #eeeae4;
+    padding: 5px;
 }
 
 ::placeholder {
-    color: #4d538b;
+    color: #28595f;
+}
+
+nav input {
+    width: 10%;
+    padding: 5px;
+    margin: 5px;
+    color: #28595f;
+    border-radius: 5px;
 }
 
 #boton {
     width: 5%;
-    background-color: #4d538b;
-    color: #e9eaf4;
+    padding: 5px;
+    background-color: #28595f;
+    color: #fdf6ec;
+}
+
+main img, section iframe {
+    border: 3px;
+    border-color: #eeeae4;
+    border-radius: 2px;
+    border-style: solid;
+    border-radius: 5px;
 }
